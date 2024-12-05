@@ -10,9 +10,11 @@ function palindromeCheck(alphabetString) {
     // checking string palindrome using two pointer approach
 
     if (alphabetString.length == 0) {
-        console.log("String is empty");
+        console.log("String is empty");   // checking for empty string : edge case
         return;
     }
+
+    
     let start = 0;
     let end = alphabetString.length - 1;
     let isPalindrome = true;
